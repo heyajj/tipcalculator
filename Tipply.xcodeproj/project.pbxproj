@@ -34,20 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E2517DED194FD38100299A5B /* tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2517DED194FD38100299A5B /* Tipply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2517DF0194FD38100299A5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2517DF2194FD38100299A5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E2517DF4194FD38100299A5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E2517DF8194FD38100299A5B /* tipcalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipcalculator-Info.plist"; sourceTree = "<group>"; };
+		E2517DF8194FD38100299A5B /* Tipply-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tipply-Info.plist"; sourceTree = "<group>"; };
 		E2517DFA194FD38100299A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2517DFC194FD38100299A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2517DFE194FD38100299A5B /* tipcalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tipcalculator-Prefix.pch"; sourceTree = "<group>"; };
+		E2517DFE194FD38100299A5B /* Tipply-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tipply-Prefix.pch"; sourceTree = "<group>"; };
 		E2517DFF194FD38100299A5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2517E00194FD38100299A5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E2517E02194FD38100299A5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E2517E08194FD38200299A5B /* tipcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2517E08194FD38200299A5B /* TipplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2517E09194FD38200299A5B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E2517E11194FD38200299A5B /* tipcalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipcalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		E2517E11194FD38200299A5B /* TipplyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipplyTests-Info.plist"; sourceTree = "<group>"; };
 		E2517E13194FD38200299A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2517E15194FD38200299A5B /* tipcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcalculatorTests.m; sourceTree = "<group>"; };
 		E2517E1F194FD4EC00299A5B /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 		E2517DEE194FD38100299A5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2517DED194FD38100299A5B /* tipcalculator.app */,
-				E2517E08194FD38200299A5B /* tipcalculatorTests.xctest */,
+				E2517DED194FD38100299A5B /* Tipply.app */,
+				E2517E08194FD38200299A5B /* TipplyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 		E2517DF7194FD38100299A5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2517DF8194FD38100299A5B /* tipcalculator-Info.plist */,
+				E2517DF8194FD38100299A5B /* Tipply-Info.plist */,
 				E2517DF9194FD38100299A5B /* InfoPlist.strings */,
 				E2517DFC194FD38100299A5B /* main.m */,
-				E2517DFE194FD38100299A5B /* tipcalculator-Prefix.pch */,
+				E2517DFE194FD38100299A5B /* Tipply-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		E2517E10194FD38200299A5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2517E11194FD38200299A5B /* tipcalculatorTests-Info.plist */,
+				E2517E11194FD38200299A5B /* TipplyTests-Info.plist */,
 				E2517E12194FD38200299A5B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2517DEC194FD38100299A5B /* tipcalculator */ = {
+		E2517DEC194FD38100299A5B /* Tipply */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2517E19194FD38200299A5B /* Build configuration list for PBXNativeTarget "tipcalculator" */;
+			buildConfigurationList = E2517E19194FD38200299A5B /* Build configuration list for PBXNativeTarget "Tipply" */;
 			buildPhases = (
 				E2517DE9194FD38100299A5B /* Sources */,
 				E2517DEA194FD38100299A5B /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = tipcalculator;
+			name = Tipply;
 			productName = tipcalculator;
-			productReference = E2517DED194FD38100299A5B /* tipcalculator.app */;
+			productReference = E2517DED194FD38100299A5B /* Tipply.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E2517E07194FD38200299A5B /* tipcalculatorTests */ = {
+		E2517E07194FD38200299A5B /* TipplyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2517E1C194FD38200299A5B /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */;
+			buildConfigurationList = E2517E1C194FD38200299A5B /* Build configuration list for PBXNativeTarget "TipplyTests" */;
 			buildPhases = (
 				E2517E04194FD38200299A5B /* Sources */,
 				E2517E05194FD38200299A5B /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				E2517E0E194FD38200299A5B /* PBXTargetDependency */,
 			);
-			name = tipcalculatorTests;
+			name = TipplyTests;
 			productName = tipcalculatorTests;
-			productReference = E2517E08194FD38200299A5B /* tipcalculatorTests.xctest */;
+			productReference = E2517E08194FD38200299A5B /* TipplyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2517DE8194FD38100299A5B /* Build configuration list for PBXProject "tipcalculator" */;
+			buildConfigurationList = E2517DE8194FD38100299A5B /* Build configuration list for PBXProject "Tipply" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,8 +216,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2517DEC194FD38100299A5B /* tipcalculator */,
-				E2517E07194FD38200299A5B /* tipcalculatorTests */,
+				E2517DEC194FD38100299A5B /* Tipply */,
+				E2517E07194FD38200299A5B /* TipplyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +267,7 @@
 /* Begin PBXTargetDependency section */
 		E2517E0E194FD38200299A5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E2517DEC194FD38100299A5B /* tipcalculator */;
+			target = E2517DEC194FD38100299A5B /* Tipply */;
 			targetProxy = E2517E0D194FD38200299A5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -368,10 +368,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
-				INFOPLIST_FILE = "tipcalculator/tipcalculator-Info.plist";
+				GCC_PREFIX_HEADER = "tipcalculator/Tipply-Prefix.pch";
+				INFOPLIST_FILE = "tipcalculator/Tipply-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipply;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,10 +382,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
-				INFOPLIST_FILE = "tipcalculator/tipcalculator-Info.plist";
+				GCC_PREFIX_HEADER = "tipcalculator/Tipply-Prefix.pch";
+				INFOPLIST_FILE = "tipcalculator/Tipply-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipply;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -405,8 +405,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "tipcalculatorTests/tipcalculatorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "tipcalculatorTests/TipplyTests-Info.plist";
+				PRODUCT_NAME = TipplyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -423,8 +423,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
-				INFOPLIST_FILE = "tipcalculatorTests/tipcalculatorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "tipcalculatorTests/TipplyTests-Info.plist";
+				PRODUCT_NAME = TipplyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -433,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2517DE8194FD38100299A5B /* Build configuration list for PBXProject "tipcalculator" */ = {
+		E2517DE8194FD38100299A5B /* Build configuration list for PBXProject "Tipply" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2517E17194FD38200299A5B /* Debug */,
@@ -442,21 +442,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2517E19194FD38200299A5B /* Build configuration list for PBXNativeTarget "tipcalculator" */ = {
+		E2517E19194FD38200299A5B /* Build configuration list for PBXNativeTarget "Tipply" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2517E1A194FD38200299A5B /* Debug */,
 				E2517E1B194FD38200299A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E2517E1C194FD38200299A5B /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */ = {
+		E2517E1C194FD38200299A5B /* Build configuration list for PBXNativeTarget "TipplyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2517E1D194FD38200299A5B /* Debug */,
 				E2517E1E194FD38200299A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
