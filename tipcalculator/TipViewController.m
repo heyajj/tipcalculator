@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
 
+
 - (IBAction)onTap:(id)sender;
 - (void)updateValues;
 
@@ -26,7 +27,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"Tip Calulator";
+        self.title = @"Tipply";
     }
     return self;
 }

@@ -13,19 +13,24 @@
 @implementation AppDelegate
 
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xdd2f2c)];
+    
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
     TipViewController  *vc = [[TipViewController alloc] init];
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    nvc.navigationBar.barTintColor = UIColorFromRGB(0xdd2f2c);
+    nvc.navigationBar.translucent = NO;
+    [[UITextField appearance] setTintColor:[UIColor whiteColor]];
+    
     
     self.window.rootViewController = nvc;
     
-    self.window.backgroundColor = [UIColor whiteColor];
+    //self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
